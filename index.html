@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Mars IT School - Login</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="logo">MARS IT</div>
+      <div class="lang">🌐 O'zb</div>
+    </div>
+    
+    <div class="login-card">
+      <div class="card-header">
+        <div class="logo">MARS IT</div>
+        <a href="#" class="offer-link">Offerta imzolash</a>
+      </div>
+      
+      <h2>Spacega xush kelibsiz</h2>
+      
+      <div class="user-type">
+        <button id="studentBtn" class="active">O'quvchiman</button>
+        <button id="parentBtn">Ota-onaman</button>
+      </div>
+      
+      <input type="text" id="username" placeholder="Modme Id yoki telefon raqami" required>
+      <div id="usernameError" class="error-message">Iltimos, ID yoki telefon raqamini kiriting</div>
+      
+      <div class="password-field">
+        <input type="password" id="password" placeholder="Parol" required>
+        <span class="toggle-password" id="togglePassword">👁️</span>
+      </div>
+      <div id="passwordError" class="error-message">Parol kamida 6 ta belgidan iborat bo'lishi kerak</div>
+      <div id="loginSuccess" class="success-message">Muvaffaqiyatli kirildi!</div>
+      
+      <div class="qr-link">QR code orqali kirish</div>
+      
+      <button class="submit-btn" id="loginBtn">Tasdiqlash</button>
+      
+      <div class="forgot-password">Parolni unutdingizmi?</div>
+    </div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+</html>
